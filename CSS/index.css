@@ -25,6 +25,8 @@ h1 {
 }
 
 #email {
+    text-align: center;
+    line-height: 50px;
     display: block;
     max-width: 300px;
     margin: auto;
@@ -34,6 +36,7 @@ h1 {
     width: 240px;
     font-family: "Andale Mono", "AndaleMono", monospace;
     font-style: italic; 
+    text-decoration: none;
     color: white;
     font-size: 14px;
     border: 0px;
