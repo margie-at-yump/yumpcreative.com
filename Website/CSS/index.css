@@ -1,0 +1,50 @@
+body {
+    background-color: #E7FF00;
+    font-family: "Andale Mono", "AndaleMono", monospace; 
+}
+
+section.landingPage {
+    display: block;
+    margin: auto;
+    height: 100%;
+    width: 600px;
+    padding-top: 100px;
+}
+
+#logo {
+    max-height: 200px;
+    margin: auto;
+    display: block;
+}
+
+h1 {
+    font-size: 16px;
+    color: #292728;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#email {
+    display: block;
+    max-width: 300px;
+    margin: auto;
+    margin-top: 40px;
+    background-color: #8729FF;
+    height: 50px;
+    width: 240px;
+    font-family: "Andale Mono", "AndaleMono", monospace;
+    font-style: italic; 
+    color: white;
+    font-size: 14px;
+    border: 0px;
+    transition: all 0.3s ease 0s;
+}
+
+#email:hover {
+    background-color: #E7FF00;
+    border: 2px solid #8729FF;
+    color: #8729FF;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+}
